@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar{
+    width: 20px;
+
+}
+::-webkit-scrollbar-track{
+    background: rgb(238, 234, 234);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, rgba(70, 87, 238, 0.726), rgb(147, 91, 219))
+
+}
